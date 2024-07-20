@@ -10,8 +10,8 @@
         OnDetectionFinished="cameraView_OnDetectionFinished" 
             Margin="10,10,10,10"/>
         <HorizontalStackLayout HorizontalOptions="Center">
-            <ImageButton x:Name="btTurnOnOff" Source="video_off.png" HeightRequest="40" WidthRequest="40" VerticalOptions="End" HorizontalOptions="Start" Clicked="btTurnOnOff_Clicked" Margin="10,0,10,0" />
-            <ImageButton x:Name="btTorchOnOff" Source="torch_on.png" HeightRequest="40" WidthRequest="40" VerticalOptions="End" HorizontalOptions="End" Clicked="btTorchOnOff_Clicked" Margin="10,0,10,0" />
+            <ImageButton x:Name="btTurnOnOff" Source="video_on.png" HeightRequest="40" WidthRequest="40" VerticalOptions="End" HorizontalOptions="Start" Clicked="btTurnOnOff_Clicked" Margin="10,0,10,0" />
+            <ImageButton x:Name="btTorchOnOff" Source="torch_off.png" HeightRequest="40" WidthRequest="40" VerticalOptions="End" HorizontalOptions="End" Clicked="btTorchOnOff_Clicked" Margin="10,0,10,0" />
         </HorizontalStackLayout>
     </Grid>
 </ContentPage>

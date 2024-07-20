@@ -50,7 +50,7 @@ namespace JkQrReader
         private void btTurnOnOff_Clicked(object sender, EventArgs e)
         {
             cameraView.CameraEnabled = !cameraView.CameraEnabled;
-            btTurnOnOff.Source = cameraView.CameraEnabled ? "video_off.png" : "video_on.png";
+            btTurnOnOff.Source = cameraView.CameraEnabled ? "video_on.png" : "video_off.png";
         }
         private async Task ShowBarCode(BarcodeResult e)
         {
@@ -61,7 +61,7 @@ namespace JkQrReader
         private void btTorchOnOff_Clicked(object sender, EventArgs e)
         {
             cameraView.TorchOn = !cameraView.TorchOn;
-            btTorchOnOff.Source = cameraView.TorchOn ? "torch_off.png" : "torch_on.png";
+            btTorchOnOff.Source = cameraView.TorchOn ? "torch_on.png" : "torch_off.png";
         }
     }
 
